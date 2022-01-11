@@ -293,7 +293,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     content: "";
     background-size: contain;
     top: 12px;
-    background-image: url(imagenes/logofrenchhub_Temporaldefifrancophone.png) !important;
+    background-image: url(imagenes/logofrenchhub_defifrancophone.png) !important;
     position: fixed;
     width: 100px;
     height: 23px;
@@ -564,7 +564,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
 
 /*Icono audio*/
 #actividad .player.audio {
-	background-image: url(imagenes/icono_audio_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_audio_defifrancophone.png);
 	color: #fff;
 }
 
@@ -767,7 +767,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
 
 .bck-enfasis-3:before {
 	content: "";
-    background-image: url(imagenes/icono_flecha_verde_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_flecha_verde_defifrancophone.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -799,7 +799,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
 
 .bck-enfasis-5:before {
 	content: "";
-    background-image: url(imagenes/icono_exclamacion_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_exclamacion_defifrancophone.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -819,7 +819,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
 
 .bck-enfasis-6:before {
 	content: "";
-    background-image: url(imagenes/icono_campana_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_campana_defifrancophone.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -1433,7 +1433,7 @@ padding-left: 2px;
 #actividad .popover-content ul.bck-ul-5 li:before,
 #actividad .content .workspace ul li ul.bck-ul-5 li:before {
     content: "";
-    background-image: url(imagenes/icono_escribir_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_escribir_defifrancophone.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 13px;
@@ -1543,7 +1543,7 @@ padding-left: 2px;
 
 .bck-box.bck-box-1 .bck-content:before {
 	content: "";
-	background-image: url(imagenes/icono_bocadillo_marron_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_bocadillo_marron_defifrancophone.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding: 20px;
@@ -1694,7 +1694,7 @@ padding-left: 2px;
 	content: "";
     position: absolute;
     padding: 43px;
-    background-image: url(imagenes/icono_diana_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_diana_defifrancophone.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: -15px;
@@ -2135,7 +2135,7 @@ hr {
 }
 
 .item-container .icon-video:before {
-	background-image: url(imagenes/icono_video_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_video_defifrancophone.png);
 	width: 30px;
     height: 25px;
     vertical-align: top;
@@ -2143,7 +2143,7 @@ hr {
 }
 
 .item-container .icon-cesta-letras:before {
-	background-image: url(imagenes/icono_cesta_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_cesta_defifrancophone.png);
 	width: 60px;
     height: 60px;
     vertical-align: top;
@@ -2151,7 +2151,7 @@ hr {
 }
 
 .item-container .icon-exclamacion-verde:before {
-	background-image: url(imagenes/icono_exclamacion_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_exclamacion_defifrancophone.png);
 	width: 25px;
     height: 25px;
     vertical-align: top;
@@ -2159,7 +2159,7 @@ hr {
 }
 
 .item-container .icon-campana-verde:before {
-	background-image: url(imagenes/icono_campana_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_campana_defifrancophone.png);
 	width: 25px;
     height: 25px;
     vertical-align: top;
@@ -2167,7 +2167,7 @@ hr {
 }
 
 .item-container .icon-lapiz:before {
-	background-image: url(imagenes/icono_escribir_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_escribir_defifrancophone.png);
 	width: 25px;
     height: 25px;
     vertical-align: top;
@@ -2175,7 +2175,7 @@ hr {
 }
 
 .item-container .icon-thefrenchhub:before {
-	background-image: url(imagenes/logofrenchhub_Temporaldefifrancophone.png);
+	background-image: url(imagenes/logofrenchhub_defifrancophone.png);
 	width: 125px;
     height: 23px;
     vertical-align: top;
@@ -2184,7 +2184,7 @@ hr {
 }
 
 .item-container .icon-compare:before {
-	background-image: url(imagenes/icono_compare_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_compare_defifrancophone.png);
 	width: 110px;
     height: 23px;
     vertical-align: top;
@@ -2193,7 +2193,7 @@ hr {
 }
 
 .item-container .icon-grupo:before {
-	background-image: url(imagenes/icono_grupo_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_grupo_defifrancophone.png);
     width: 31px;
     height: 24px;
     vertical-align: top;
@@ -2424,15 +2424,15 @@ th {
 /*Iconos tag rojo*/
 
 .unittag_rojo_Temporaldefifrancophone .item-container .icon-cesta-letras:before {
-	background-image: url(imagenes/icono_cesta_rojo_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_cesta_rojo_defifrancophone.png);
 }
 
 .unittag_rojo_Temporaldefifrancophone .item-container .icon-exclamacion-verde:before {
-	background-image: url(imagenes/icono_exclamacion_rojo_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_exclamacion_rojo_defifrancophone.png);
 }
 
 .unittag_rojo_Temporaldefifrancophone .item-container .icon-campana-verde:before {
-    background-image: url(imagenes/icono_campana_rojo_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_campana_rojo_defifrancophone.png);
 }
 
 
@@ -2443,7 +2443,7 @@ th {
 }
 
 .unittag_rojo_Temporaldefifrancophone .bck-enfasis-3:before {
-    background-image: url(imagenes/icono_flecha_rojo_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_flecha_rojo_ldefifrancophone.png);
 }
 
 .unittag_rojo_Temporaldefifrancophone .bck-enfasis-5 {
@@ -2451,7 +2451,7 @@ th {
 }
 
 .unittag_rojo_Temporaldefifrancophone .bck-enfasis-5:before {
-    background-image: url(imagenes/icono_exclamacion_rojo_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_exclamacion_rojo_defifrancophone.png);
 }
 
 .unittag_rojo_Temporaldefifrancophone .bck-enfasis-6 {
@@ -2459,7 +2459,7 @@ th {
 }
 
 .unittag_rojo_Temporaldefifrancophone .bck-enfasis-6:before {
-    background-image: url(imagenes/icono_campana_rojo_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_campana_rojo_defifrancophone.png);
 }
 
 /*Desplegables tag rojo*/
@@ -2574,15 +2574,15 @@ th {
 /*Iconos tag azul*/
 
 .unittag_azul_Temporaldefifrancophone .item-container .icon-cesta-letras:before {
-	background-image: url(imagenes/icono_cesta_azul_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_cesta_azul_defifrancophone.png);
 }
 
 .unittag_azul_Temporaldefifrancophone .item-container .icon-exclamacion-verde:before {
-	background-image: url(imagenes/icono_exclamacion_azul_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_exclamacion_azul_defifrancophone.png);
 }
 
 .unittag_azul_Temporaldefifrancophone .item-container .icon-campana-verde:before {
-    background-image: url(imagenes/icono_campana_azul_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_campana_azul_defifrancophone.png);
 }
 
 /*Énfasis tag azul*/
@@ -2592,7 +2592,7 @@ th {
 }
 
 .unittag_azul_Temporaldefifrancophone .bck-enfasis-3:before {
-    background-image: url(imagenes/icono_flecha_azul_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_flecha_azul_defifrancophone.png);
 }
 
 .unittag_azul_Temporaldefifrancophone .bck-enfasis-5 {
@@ -2600,7 +2600,7 @@ th {
 }
 
 .unittag_azul_Temporaldefifrancophone .bck-enfasis-5:before {
-    background-image: url(imagenes/icono_exclamacion_azul_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_exclamacion_azul_defifrancophone.png);
 }
 
 .unittag_azul_Temporaldefifrancophone .bck-enfasis-6 {
@@ -2608,7 +2608,7 @@ th {
 }
 
 .unittag_azul_Temporaldefifrancophone .bck-enfasis-6:before {
-    background-image: url(imagenes/icono_campana_azul_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_campana_azul_defifrancophone.png);
 }
 
 /*Desplegables tag azul*/
@@ -2722,15 +2722,15 @@ th {
 /*Iconos tag granate*/
 
 .unittag_granate_Temporaldefifrancophone .item-container .icon-cesta-letras:before {
-	background-image: url(imagenes/icono_cesta_granate_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_cesta_granate_defifrancophone.png);
 }
 
 .unittag_granate_Temporaldefifrancophone .item-container .icon-exclamacion-verde:before {
-	background-image: url(imagenes/icono_exclamacion_granate_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_exclamacion_granate_defifrancophone.png);
 }
 
 .unittag_granate_Temporaldefifrancophone .item-container .icon-campana-verde:before {
-    background-image: url(imagenes/icono_campana_granate_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_campana_granate_defifrancophone.png);
 }
 
 /*Énfasis tag granate*/
@@ -2740,7 +2740,7 @@ th {
 }
 
 .unittag_granate_Temporaldefifrancophone .bck-enfasis-3:before {
-	background-image: url(imagenes/icono_flecha_granate_Temporaldefifrancophone.png);
+	background-image: url(imagenes/icono_flecha_granate_defifrancophone.png);
 }
 
 .unittag_granate_Temporaldefifrancophone .bck-enfasis-5 {
@@ -2748,7 +2748,7 @@ th {
 }
 
 .unittag_granate_Temporaldefifrancophone .bck-enfasis-5:before {
-    background-image: url(imagenes/icono_exclamacion_granate_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_exclamacion_granate_defifrancophone.png);
 }
 
 .unittag_granate_Temporaldefifrancophone .bck-enfasis-6 {
@@ -2756,7 +2756,7 @@ th {
 }
 
 .unittag_granate_Temporaldefifrancophone .bck-enfasis-6:before {
-    background-image: url(imagenes/icono_campana_granate_Temporaldefifrancophone.png);
+    background-image: url(imagenes/icono_campana_granate_defifrancophone.png);
 }
 
 .unittag_granate_Temporaldefifrancophone .bck-enfasis-8 {
