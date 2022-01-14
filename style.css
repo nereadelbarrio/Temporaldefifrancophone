@@ -1,4 +1,4 @@
-/*DEFITEMP
+/*DEFI
 pADRE mcgrawhill*/
 /*Estilo DEFI FRANCOOPHONE - CSS*/
 
@@ -228,6 +228,10 @@ strong {
 }
 
 
+
+
+
+
 /*TOC*/
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
@@ -264,10 +268,6 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 #indice .units ul li a .title{
 	color: #000;
-}
-
-.libro-left ul li .title {
-	font-weight: 600;
 }
 
 /*Input Blanco*/
@@ -322,7 +322,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 body {
 	font-size: 1.8rem;
-	font-weight: 600;
+	font-weight: normal;
 	text-align: left;
 	color: #000;
 	font-family: 'Conv_Stag-Sans'; 
@@ -413,9 +413,6 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 	text-overflow: ellipsis;
 }
 
-#indice .unit-content .actividades .item .title {
-	font-weight: 600;
-}
 
 #book-index #indice .unit-content .actividades .item .title {
 	font-size: 14px;
@@ -1074,7 +1071,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
 	padding-left: 20px;
 	position: relative;
 	z-index: 0;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li:before,
@@ -1278,7 +1275,7 @@ counter-increment: bck-li-counter;
 	position: relative;
 	list-style: none;
 	margin-bottom: 5px;
-	font-family: 'Conv_Stag';
+	font-family: 'Conv_Stag'
 }
 
 #actividad .content .cke_contents .bck-ul-1 li:before,
@@ -1312,7 +1309,7 @@ counter-increment: bck-li-counter;
 	position: relative;
 	list-style: none;
 	margin-bottom: 5px;
-	font-family: 'Conv_Stag';
+	font-family: 'Conv_Stag'
 }
 
 #actividad .content .cke_contents .bck-ul-2 li:before,
@@ -1347,7 +1344,7 @@ counter-increment: bck-li-counter;
 	position: relative;
 	list-style-type: none;
 	margin-bottom: 10px;
-	font-family: 'Conv_Stag';
+	font-family: 'Conv_Stag'
 }
 
 #actividad .content .cke_contents .bck-ul-3 li:before,
@@ -1381,7 +1378,7 @@ counter-increment: bck-li-counter;
 	list-style-type: none;
 	margin-bottom: 10px;
 	color: #fff;
-	font-family: 'Conv_Stag';
+	font-family: 'Conv_Stag'
 }
 
 #actividad .content .cke_contents .bck-ul-4 li:before,
@@ -1410,15 +1407,20 @@ counter-increment: bck-li-counter;
 #actividad .content .texto_curso .bck-ul-5 li,
 #actividad .popover-content .bck-ul-5 li,
 #actividad .content .workspace ul li .bck-ul-5 li {
-padding-left: 2px;
+	padding-left: 2px;
     position: relative;
     list-style-type: none;
     margin-bottom: 10px;
-    color: #00489a;
-    font-family: Conv_Stag-Sans;
+    color: #00489A;
+    /*font-weight: 600;*/
+    font-family: 'Conv_Stag-Sans';
+    border-bottom: 1px dotted #00489A;
     margin-left: 50px;
     width: fit-content;
-    font-style: italic;
+    -webkit-width: fit-content;
+    -ms-width: fit-content;
+    -moz-width: fit-content;
+    -o-width: fit-content;
 }
 
 #actividad .content .cke_contents .bck-ul-5 li:before,
@@ -2295,40 +2297,40 @@ th {
 /*TAGS*/
 /*---------------------------------Unittag textbooks------------------------------*/
 
-#list-units .unittag_textbook_Temporaldefifrancophonedemo {
+#list-units .unittag_textbook_defifrancophonedemo {
 	background: #000 !important;
 }
 
-#list-units .unittag_textbook_Temporaldefifrancophonedemo:hover {
+#list-units .unittag_textbook_defifrancophonedemo:hover {
 	background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_textbook_Temporaldefifrancophonedemo a .title {
+.units ul#list-units .unittag_textbook_defifrancophonedemo a .title {
 	color: #ffffff;
 }
 
 
 /*---------------------------------Unittag activities------------------------------*/
 
-#list-units .unittag_activities_Temporaldefifrancophonedemo {
+#list-units .unittag_activities_defifrancophonedemo {
 	background: #fff !important;
 }
 
-#list-units .unittag_activities_Temporaldefifrancophonedemo:hover {
+#list-units .unittag_activities_defifrancophonedemo:hover {
 	background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_activities_Temporaldefifrancophonedemo a .title {
+.units ul#list-units .unittag_activities_defifrancophonedemo a .title {
 	color: #000;
 }
 
 
 /*---------------------------------Unittag titulo------------------------------*/
-#list-units .unittag_titulo_Temporaldefifrancophonedemo {
+#list-units .unittag_titulo_defifrancophonedemo {
     background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_titulo_Temporaldefifrancophonedemo a .title {
+.units ul#list-units .unittag_titulo_defifrancophonedemo a .title {
 	color: #FFF;
 }
 
@@ -2336,48 +2338,48 @@ th {
 
 /*Títulos tag rojo*/
 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .header .title h3 {
+.unittag_rojo_defifrancophone #actividad .content .header .title h3 {
 	background: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-title-1 {
+.unittag_rojo_defifrancophone .bck-title-1 {
 	background-color: #e30513;
 }
 
 /*Listas tag rojo*/
 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-1 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .texto_curso .bck-ol-1 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .popover-content .bck-ol-1 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .workspace ul li .bck-ol-1 li:before {
+.unittag_rojo_defifrancophone #actividad .content .cke_contents .bck-ol-1 li:before, 
+.unittag_rojo_defifrancophone #actividad .content .texto_curso .bck-ol-1 li:before, 
+.unittag_rojo_defifrancophone #actividad .popover-content .bck-ol-1 li:before, 
+.unittag_rojo_defifrancophone #actividad .content .workspace ul li .bck-ol-1 li:before {
 	color: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-2 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .texto_curso ol.bck-ol-2 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .popover-content ol.bck-ol-2 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+.unittag_rojo_defifrancophone #actividad .content .cke_contents .bck-ol-2 li:before, 
+.unittag_rojo_defifrancophone #actividad .content .texto_curso ol.bck-ol-2 li:before, 
+.unittag_rojo_defifrancophone #actividad .popover-content ol.bck-ol-2 li:before, 
+.unittag_rojo_defifrancophone #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	background: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-3 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .texto_curso ol.bck-ol-3 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .popover-content ol.bck-ol-3 li:before, 
-.unittag_rojo_Temporaldefifrancophone #actividad .content .workspace ul li ol.bck-ol-3 li:before {
+.unittag_rojo_defifrancophone #actividad .content .cke_contents .bck-ol-3 li:before, 
+.unittag_rojo_defifrancophone #actividad .content .texto_curso ol.bck-ol-3 li:before, 
+.unittag_rojo_defifrancophone #actividad .popover-content ol.bck-ol-3 li:before, 
+.unittag_rojo_defifrancophone #actividad .content .workspace ul li ol.bck-ol-3 li:before {
 	color: #e30513;
 }
 
 /*Cajas tag rojo*/
 
-.unittag_rojo_Temporaldefifrancophone .bck-box-5 > .bck-title {
+.unittag_rojo_defifrancophone .bck-box-5 > .bck-title {
 	background-color: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-box-5 > .bck-content {
+.unittag_rojo_defifrancophone .bck-box-5 > .bck-content {
     border: 3px dashed #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-box.bck-box-7 {
+.unittag_rojo_defifrancophone .bck-box.bck-box-7 {
     -moz-box-shadow: 0 20px 0 -10px #fffefe,
     				 0 -20px 0 -10px #fff,
     				 21px 0 0 -10px #fff,
@@ -2398,87 +2400,87 @@ th {
     			5px 5px 5px 0 transparent;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-box-8 .bck-title {
+.unittag_rojo_defifrancophone .bck-box-8 .bck-title {
     background-color: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-box-8 .bck-content {
+.unittag_rojo_defifrancophone .bck-box-8 .bck-content {
 	background: #FCD9CA;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-box-10 .bck-title {
+.unittag_rojo_defifrancophone .bck-box-10 .bck-title {
     background: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-box.bck-box-10 .bck-content {
+.unittag_rojo_defifrancophone .bck-box.bck-box-10 .bck-content {
     background-color: #e30513;
 }
 
 /*Iconos tag rojo*/
 
-.unittag_rojo_Temporaldefifrancophone .item-container .icon-cesta-letras:before {
+.unittag_rojo_defifrancophone .item-container .icon-cesta-letras:before {
 	background-image: url(imagenes/icono_cesta_rojo_defifrancophone.png);
 }
 
-.unittag_rojo_Temporaldefifrancophone .item-container .icon-exclamacion-verde:before {
+.unittag_rojo_defifrancophone .item-container .icon-exclamacion-verde:before {
 	background-image: url(imagenes/icono_exclamacion_rojo_defifrancophone.png);
 }
 
-.unittag_rojo_Temporaldefifrancophone .item-container .icon-campana-verde:before {
+.unittag_rojo_defifrancophone .item-container .icon-campana-verde:before {
     background-image: url(imagenes/icono_campana_rojo_defifrancophone.png);
 }
 
 
 /*Énfasis tag rojo*/
 
-.unittag_rojo_Temporaldefifrancophone .bck-enfasis-3 {
+.unittag_rojo_defifrancophone .bck-enfasis-3 {
     color: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-enfasis-3:before {
-    background-image: url(imagenes/icono_flecha_rojo_ldefifrancophone.png);
+.unittag_rojo_defifrancophone .bck-enfasis-3:before {
+    background-image: url(imagenes/icono_flecha_rojo_defifrancophone.png);
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-enfasis-5 {
+.unittag_rojo_defifrancophone .bck-enfasis-5 {
     color: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-enfasis-5:before {
+.unittag_rojo_defifrancophone .bck-enfasis-5:before {
     background-image: url(imagenes/icono_exclamacion_rojo_defifrancophone.png);
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-enfasis-6 {
+.unittag_rojo_defifrancophone .bck-enfasis-6 {
     color: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-enfasis-6:before {
+.unittag_rojo_defifrancophone .bck-enfasis-6:before {
     background-image: url(imagenes/icono_campana_rojo_defifrancophone.png);
 }
 
 /*Desplegables tag rojo*/
 
-.unittag_rojo_Temporaldefifrancophone .bck-dropdown.bck-dropdown-3 {
+.unittag_rojo_defifrancophone .bck-dropdown.bck-dropdown-3 {
     background-color: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-dropdown-3 .bck-dropdown-button {
+.unittag_rojo_defifrancophone .bck-dropdown-3 .bck-dropdown-button {
     border: 2px solid #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-dropdown-3 .bck-dropdown-content {
+.unittag_rojo_defifrancophone .bck-dropdown-3 .bck-dropdown-content {
     border: 1px solid #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-dropdown.bck-dropdown-4 {
+.unittag_rojo_defifrancophone .bck-dropdown.bck-dropdown-4 {
     border: 2px solid #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-dropdown-4 .bck-dropdown-titulo {
+.unittag_rojo_defifrancophone .bck-dropdown-4 .bck-dropdown-titulo {
     color: #e30513;
 }
 
-.unittag_rojo_Temporaldefifrancophone .bck-dropdown-4 .fa-chevron-up:before, 
-.unittag_rojo_Temporaldefifrancophone .bck-dropdown-4 .fa-chevron-down:before {
+.unittag_rojo_defifrancophone .bck-dropdown-4 .fa-chevron-up:before, 
+.unittag_rojo_defifrancophone .bck-dropdown-4 .fa-chevron-down:before {
     color: #e30513;
 }
 
@@ -2486,48 +2488,48 @@ th {
 
 /*Títulos tag azul*/
 
-.unittag_azul_Temporaldefifrancophone #actividad .content .header .title h3 {
+.unittag_azul_defifrancophone #actividad .content .header .title h3 {
 	background: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-title-1 {
+.unittag_azul_defifrancophone .bck-title-1 {
 	background-color: #1960ab;
 }
 
 /*Listas tag azul*/
 
-.unittag_azul_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-1 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .content .texto_curso .bck-ol-1 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .popover-content .bck-ol-1 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .content .workspace ul li .bck-ol-1 li:before {
+.unittag_azul_defifrancophone #actividad .content .cke_contents .bck-ol-1 li:before, 
+.unittag_azul_defifrancophone #actividad .content .texto_curso .bck-ol-1 li:before, 
+.unittag_azul_defifrancophone #actividad .popover-content .bck-ol-1 li:before, 
+.unittag_azul_defifrancophone #actividad .content .workspace ul li .bck-ol-1 li:before {
 	color: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-2 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .content .texto_curso ol.bck-ol-2 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .popover-content ol.bck-ol-2 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+.unittag_azul_defifrancophone #actividad .content .cke_contents .bck-ol-2 li:before, 
+.unittag_azul_defifrancophone #actividad .content .texto_curso ol.bck-ol-2 li:before, 
+.unittag_azul_defifrancophone #actividad .popover-content ol.bck-ol-2 li:before, 
+.unittag_azul_defifrancophone #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	background: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-3 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .content .texto_curso ol.bck-ol-3 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .popover-content ol.bck-ol-3 li:before, 
-.unittag_azul_Temporaldefifrancophone #actividad .content .workspace ul li ol.bck-ol-3 li:before {
+.unittag_azul_defifrancophone #actividad .content .cke_contents .bck-ol-3 li:before, 
+.unittag_azul_defifrancophone #actividad .content .texto_curso ol.bck-ol-3 li:before, 
+.unittag_azul_defifrancophone #actividad .popover-content ol.bck-ol-3 li:before, 
+.unittag_azul_defifrancophone #actividad .content .workspace ul li ol.bck-ol-3 li:before {
 	color: #1960ab;
 }
 
 /*Cajas tag azul*/
 
-.unittag_azul_Temporaldefifrancophone .bck-box-5 > .bck-title {
+.unittag_azul_defifrancophone .bck-box-5 > .bck-title {
 	background-color: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-box-5 > .bck-content {
+.unittag_azul_defifrancophone .bck-box-5 > .bck-content {
     border: 3px dashed #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-box.bck-box-7 {
+.unittag_azul_defifrancophone .bck-box.bck-box-7 {
     -moz-box-shadow: 0 20px 0 -10px #fffefe,
     				 0 -20px 0 -10px #fff,
     				 21px 0 0 -10px #fff,
@@ -2548,134 +2550,134 @@ th {
     			5px 5px 5px 0 transparent;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-box-8 .bck-title {
+.unittag_azul_defifrancophone .bck-box-8 .bck-title {
     background-color: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-box-8 .bck-content {
+.unittag_azul_defifrancophone .bck-box-8 .bck-content {
 	background: #D7DCF0;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-box-10 .bck-title {
+.unittag_azul_defifrancophone .bck-box-10 .bck-title {
     background: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-box.bck-box-10 .bck-content {
+.unittag_azul_defifrancophone .bck-box.bck-box-10 .bck-content {
     background-color: #1960ab;
 }
 
 /*Iconos tag azul*/
 
-.unittag_azul_Temporaldefifrancophone .item-container .icon-cesta-letras:before {
+.unittag_azul_defifrancophone .item-container .icon-cesta-letras:before {
 	background-image: url(imagenes/icono_cesta_azul_defifrancophone.png);
 }
 
-.unittag_azul_Temporaldefifrancophone .item-container .icon-exclamacion-verde:before {
+.unittag_azul_defifrancophone .item-container .icon-exclamacion-verde:before {
 	background-image: url(imagenes/icono_exclamacion_azul_defifrancophone.png);
 }
 
-.unittag_azul_Temporaldefifrancophone .item-container .icon-campana-verde:before {
+.unittag_azul_defifrancophone .item-container .icon-campana-verde:before {
     background-image: url(imagenes/icono_campana_azul_defifrancophone.png);
 }
 
 /*Énfasis tag azul*/
 
-.unittag_azul_Temporaldefifrancophone .bck-enfasis-3 {
+.unittag_azul_defifrancophone .bck-enfasis-3 {
     color: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-enfasis-3:before {
+.unittag_azul_defifrancophone .bck-enfasis-3:before {
     background-image: url(imagenes/icono_flecha_azul_defifrancophone.png);
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-enfasis-5 {
+.unittag_azul_defifrancophone .bck-enfasis-5 {
     color: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-enfasis-5:before {
+.unittag_azul_defifrancophone .bck-enfasis-5:before {
     background-image: url(imagenes/icono_exclamacion_azul_defifrancophone.png);
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-enfasis-6 {
+.unittag_azul_defifrancophone .bck-enfasis-6 {
     color: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-enfasis-6:before {
+.unittag_azul_defifrancophone .bck-enfasis-6:before {
     background-image: url(imagenes/icono_campana_azul_defifrancophone.png);
 }
 
 /*Desplegables tag azul*/
 
-.unittag_azul_Temporaldefifrancophone .bck-dropdown.bck-dropdown-3 {
+.unittag_azul_defifrancophone .bck-dropdown.bck-dropdown-3 {
     background-color: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-dropdown-3 .bck-dropdown-button {
+.unittag_azul_defifrancophone .bck-dropdown-3 .bck-dropdown-button {
     border: 2px solid #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-dropdown-3 .bck-dropdown-content {
+.unittag_azul_defifrancophone .bck-dropdown-3 .bck-dropdown-content {
     border: 1px solid #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-dropdown.bck-dropdown-4 {
+.unittag_azul_defifrancophone .bck-dropdown.bck-dropdown-4 {
     border: 2px solid #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-dropdown-4 .bck-dropdown-titulo {
+.unittag_azul_defifrancophone .bck-dropdown-4 .bck-dropdown-titulo {
     color: #1960ab;
 }
 
-.unittag_azul_Temporaldefifrancophone .bck-dropdown-4 .fa-chevron-up:before, 
-.unittag_azul_Temporaldefifrancophone .bck-dropdown-4 .fa-chevron-down:before {
+.unittag_azul_defifrancophone .bck-dropdown-4 .fa-chevron-up:before, 
+.unittag_azul_defifrancophone .bck-dropdown-4 .fa-chevron-down:before {
     color: #1960ab;
 }
 /*---------------------------------Unittag granate------------------------------*/
 
 /*Títulos tag granate*/
 
-.unittag_granate_Temporaldefifrancophone #actividad .content .header .title h3 {
+.unittag_granate_defifrancophone #actividad .content .header .title h3 {
 	background: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-title-1 {
+.unittag_granate_defifrancophone .bck-title-1 {
 	background-color: #981646;
 }
 
 /*Listas tag granate*/
 
-.unittag_granate_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-1 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .content .texto_curso .bck-ol-1 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .popover-content .bck-ol-1 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .content .workspace ul li .bck-ol-1 li:before {
+.unittag_granate_defifrancophone #actividad .content .cke_contents .bck-ol-1 li:before, 
+.unittag_granate_defifrancophone #actividad .content .texto_curso .bck-ol-1 li:before, 
+.unittag_granate_defifrancophone #actividad .popover-content .bck-ol-1 li:before, 
+.unittag_granate_defifrancophone #actividad .content .workspace ul li .bck-ol-1 li:before {
 	color: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-2 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .content .texto_curso ol.bck-ol-2 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .popover-content ol.bck-ol-2 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+.unittag_granate_defifrancophone #actividad .content .cke_contents .bck-ol-2 li:before, 
+.unittag_granate_defifrancophone #actividad .content .texto_curso ol.bck-ol-2 li:before, 
+.unittag_granate_defifrancophone #actividad .popover-content ol.bck-ol-2 li:before, 
+.unittag_granate_defifrancophone #actividad .content .workspace ul li ol.bck-ol-2 li:before {
 	background: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone #actividad .content .cke_contents .bck-ol-3 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .content .texto_curso ol.bck-ol-3 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .popover-content ol.bck-ol-3 li:before, 
-.unittag_granate_Temporaldefifrancophone #actividad .content .workspace ul li ol.bck-ol-3 li:before {
+.unittag_granate_defifrancophone #actividad .content .cke_contents .bck-ol-3 li:before, 
+.unittag_granate_defifrancophone #actividad .content .texto_curso ol.bck-ol-3 li:before, 
+.unittag_granate_defifrancophone #actividad .popover-content ol.bck-ol-3 li:before, 
+.unittag_granate_defifrancophone #actividad .content .workspace ul li ol.bck-ol-3 li:before {
 	color: #981646;
 }
 
 /*Cajas tag granate*/
 
-.unittag_granate_Temporaldefifrancophone .bck-box-5 > .bck-title {
+.unittag_granate_defifrancophone .bck-box-5 > .bck-title {
 	background-color: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-box-5 > .bck-content {
+.unittag_granate_defifrancophone .bck-box-5 > .bck-content {
     border: 3px dashed #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-box.bck-box-7 {
+.unittag_granate_defifrancophone .bck-box.bck-box-7 {
     -moz-box-shadow: 0 20px 0 -10px #fffefe,
     				 0 -20px 0 -10px #fff,
     				 21px 0 0 -10px #fff,
@@ -2696,90 +2698,90 @@ th {
     			5px 5px 5px 0 transparent;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-box-8 .bck-title {
+.unittag_granate_defifrancophone .bck-box-8 .bck-title {
     background-color: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-box-8 .bck-content {
+.unittag_granate_defifrancophone .bck-box-8 .bck-content {
 	background: #EBD0D6;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-box-10 .bck-title {
+.unittag_granate_defifrancophone .bck-box-10 .bck-title {
     background: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-box.bck-box-10 .bck-content {
+.unittag_granate_defifrancophone .bck-box.bck-box-10 .bck-content {
     background-color: #981646;
 }
 
 /*Iconos tag granate*/
 
-.unittag_granate_Temporaldefifrancophone .item-container .icon-cesta-letras:before {
+.unittag_granate_defifrancophone .item-container .icon-cesta-letras:before {
 	background-image: url(imagenes/icono_cesta_granate_defifrancophone.png);
 }
 
-.unittag_granate_Temporaldefifrancophone .item-container .icon-exclamacion-verde:before {
+.unittag_granate_defifrancophone .item-container .icon-exclamacion-verde:before {
 	background-image: url(imagenes/icono_exclamacion_granate_defifrancophone.png);
 }
 
-.unittag_granate_Temporaldefifrancophone .item-container .icon-campana-verde:before {
+.unittag_granate_defifrancophone .item-container .icon-campana-verde:before {
     background-image: url(imagenes/icono_campana_granate_defifrancophone.png);
 }
 
 /*Énfasis tag granate*/
 
-.unittag_granate_Temporaldefifrancophone .bck-enfasis-3 {
+.unittag_granate_defifrancophone .bck-enfasis-3 {
     color: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-enfasis-3:before {
+.unittag_granate_defifrancophone .bck-enfasis-3:before {
 	background-image: url(imagenes/icono_flecha_granate_defifrancophone.png);
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-enfasis-5 {
+.unittag_granate_defifrancophone .bck-enfasis-5 {
     color: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-enfasis-5:before {
+.unittag_granate_defifrancophone .bck-enfasis-5:before {
     background-image: url(imagenes/icono_exclamacion_granate_defifrancophone.png);
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-enfasis-6 {
+.unittag_granate_defifrancophone .bck-enfasis-6 {
     color: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-enfasis-6:before {
+.unittag_granate_defifrancophone .bck-enfasis-6:before {
     background-image: url(imagenes/icono_campana_granate_defifrancophone.png);
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-enfasis-8 {
+.unittag_granate_defifrancophone .bck-enfasis-8 {
      background-color: #E7C7CC;
 }
 
 /*Desplegables tag granate*/
 
-.unittag_granate_Temporaldefifrancophone .bck-dropdown.bck-dropdown-3 {
+.unittag_granate_defifrancophone .bck-dropdown.bck-dropdown-3 {
     background-color: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-dropdown-3 .bck-dropdown-button {
+.unittag_granate_defifrancophone .bck-dropdown-3 .bck-dropdown-button {
     border: 2px solid #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-dropdown-3 .bck-dropdown-content {
+.unittag_granate_defifrancophone .bck-dropdown-3 .bck-dropdown-content {
     border: 1px solid #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-dropdown.bck-dropdown-4 {
+.unittag_granate_defifrancophone .bck-dropdown.bck-dropdown-4 {
     border: 2px solid #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-dropdown-4 .bck-dropdown-titulo {
+.unittag_granate_defifrancophone .bck-dropdown-4 .bck-dropdown-titulo {
     color: #981646;
 }
 
-.unittag_granate_Temporaldefifrancophone .bck-dropdown-4 .fa-chevron-up:before, 
-.unittag_granate_Temporaldefifrancophone .bck-dropdown-4 .fa-chevron-down:before {
+.unittag_granate_defifrancophone .bck-dropdown-4 .fa-chevron-up:before, 
+.unittag_granate_defifrancophone .bck-dropdown-4 .fa-chevron-down:before {
     color: #981646;
 }
 
@@ -3120,7 +3122,7 @@ th {
 }
 
 
-#list-units .unittag_textbook_Temporaldefifrancophonedemo {
+#list-units .unittag_textbook_defifrancophonedemo {
     background: #000 !important;
 }
 
@@ -3153,7 +3155,6 @@ th {
 .btn-primary, 
 .btn-primary.disabled {
      background-color: #ae440f;
-         font-weight: 600;
 }
 
 #indice .actividades a:hover {
