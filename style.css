@@ -115,7 +115,7 @@ strong {
 	url('fonts/Stag-Book-2.woff') format('woff'), 
 	url('fonts/Stag-Book-2.ttf') format('truetype'), 
 	url('fonts/Stag-Book-2.svg') format('svg');
-	font-weight: 400;
+	font-weight: 600;
 	font-style: normal;
 }
 
@@ -229,6 +229,44 @@ strong {
 	font-weight: normal;
 	font-style: normal;
 }
+
+
+/**/
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('fonts/StagSans-Medium.eot');
+    src: url('fonts/StagSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/StagSans-Medium.woff') format('woff'),
+        url('fonts/StagSans-Medium.ttf') format('truetype'),
+        url('fonts/StagSans-Medium.svg#StagSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Book';
+    src: url('fonts/Stag-Book.eot');
+    src: url('fonts/Stag-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Stag-Book.woff') format('woff'),
+        url('fonts/Stag-Book.ttf') format('truetype'),
+        url('fonts/Stag-Book.svg#Stag-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Sans Book';
+    src: url('fonts/StagSans-Book.eot');
+    src: url('fonts/StagSans-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/StagSans-Book.woff') format('woff'),
+        url('fonts/StagSans-Book.ttf') format('truetype'),
+        url('fonts/StagSans-Book.svg#StagSans-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 
 
 /*TOC*/
