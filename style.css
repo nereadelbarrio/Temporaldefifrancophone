@@ -329,7 +329,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 body {
 	font-size: 1.8rem;
-	font-weight: normal;
+	font-weight: 600;
 	text-align: left;
 	color: #000;
 	font-family: 'Conv_Stag-Sans'; 
@@ -1081,7 +1081,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
 	padding-left: 20px;
 	position: relative;
 	z-index: 0;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li:before,
@@ -3160,6 +3160,7 @@ th {
 .btn-primary, 
 .btn-primary.disabled {
      background-color: #ae440f;
+         font-weight: 600;
 }
 
 #indice .actividades a:hover {
