@@ -926,6 +926,11 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     padding-left: 40px
 }
 
+#actividad .texto_curso li, 
+#actividad .workspace ul li li {
+font-weight: 600;
+}
+
 #actividad .workspace.matching .box ul li:before,#actividad .workspace.multiple-choice .js-item ul li:before,#actividad .workspace.ordenar .js-rank-item ul li:before,.cke_contents ul li:before,.classify-item ul li:before,.preview ul li:before,.texto_curso ul li:before,.workspace ul li ul li:before {
     content: "";
     height: 6px;
@@ -966,6 +971,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     padding-left: 40px;
     position: relative;
     list-style: none;
+    font-weight: 600;
     margin-bottom: 5px;
     font-family: Conv_Stag
 }
@@ -990,6 +996,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     padding-left: 40px;
     position: relative;
     list-style: none;
+    font-weight: 600;
     margin-bottom: 5px;
     font-family: Conv_Stag
 }
@@ -1015,6 +1022,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     padding-left: 40px;
     position: relative;
     list-style-type: none;
+    font-weight: 600;
     margin-bottom: 10px;
     font-family: Conv_Stag
 }
@@ -1038,6 +1046,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     position: relative;
     list-style-type: none;
     margin-bottom: 10px;
+    font-weight: 600;
     color: #fff;
     font-family: Conv_Stag
 }
@@ -1064,6 +1073,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     margin-bottom: 10px;
     color: #00489a;
     font-family: Conv_Stag-Sans;
+    font-weight: 600;
     font-style: italic;
     margin-left: 50px;
     width: fit-content;
@@ -1092,6 +1102,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
 #actividad .content .cke_contents .bck-ul-6 li,#actividad .content .texto_curso .bck-ul-6 li,#actividad .content .workspace ul li .bck-ul-6 li,#actividad .popover-content .bck-ul-6 li {
     padding-left: 40px;
     position: relative;
+    font-weight: 600;
     list-style: none;
     margin-bottom: 5px
 }
@@ -1117,6 +1128,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     padding-left: 40px;
     position: relative;
     list-style: none;
+    font-weight: 600;
     margin-bottom: 5px
 }
 
