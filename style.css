@@ -228,7 +228,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 body {
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
     font-family: Conv_Stag-Sans
 }
