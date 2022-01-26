@@ -70,7 +70,7 @@
     font-family: Conv_Stag;
     src: url(fonts/Stag-Book-2.eot);
     src: local("☺"),url(fonts/Stag-Book-2.woff) format("woff"),url(fonts/Stag-Book-2.ttf) format("truetype"),url(fonts/Stag-Book-2.svg) format("svg");
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal
 }
 
@@ -228,7 +228,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 body {
     font-size: 1.8rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #000;
     font-family: Conv_Stag-Sans
 }
