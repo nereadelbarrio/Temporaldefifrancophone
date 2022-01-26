@@ -78,7 +78,7 @@
     font-family: Conv_Stag;
     src: url(fonts/Stag-Medium-2.eot);
     src: local("☺"),url(fonts/Stag-Medium-2.woff) format("woff"),url(fonts/Stag-Medium-2.ttf) format("truetype"),url(fonts/Stag-Medium-2.svg) format("svg");
-    font-weight: 600;
+    font-weight: normal;
     font-style: normal
 }
 
