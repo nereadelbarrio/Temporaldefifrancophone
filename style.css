@@ -160,7 +160,7 @@
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     font-size: 14px;
-    font-weight: 700
+    font-weight: 400
 }
 
 #indice .units ul li:hover:not(.disabled),body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
@@ -228,7 +228,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 body {
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
     font-family: Conv_Stag-Sans
 }
@@ -264,11 +264,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
 
 #indice .units ul li:not(.add) a .title {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     margin-left: 10px
 }
 
-#book-index #indice .units ul li.active a,body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
+#book-index #indice .units ul li.active a,
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
     background: #b7b7b7
 }
 
@@ -2508,7 +2509,7 @@ td,th {
 
 .btn-primary,.btn-primary.disabled {
     background-color: #ae440f;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #indice .actividades a:hover {
