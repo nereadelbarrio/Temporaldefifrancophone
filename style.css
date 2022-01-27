@@ -885,7 +885,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     counter-increment: bck-li-counter;
     padding-left: 0;
     z-index: 0;
-    font-weight: 600
+    font-weight: 400
 }
 
 #actividad .content .cke_contents .bck-ol-7 li:before,#actividad .content .texto_curso ol.bck-ol-7 li:before,#actividad .content .workspace ul li ol.bck-ol-7 li:before,#actividad .popover-content ol.bck-ol-7 li:before {
@@ -893,7 +893,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     position: absolute;
     color: #000;
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 600;
     text-align: right;
     left: -20px;
     font-family: inherit;
@@ -2405,7 +2405,7 @@ td,th {
 .bck-dropdown-4 .bck-dropdown-titulo,.bck-dropdown-4 .fa-chevron-down:before,.bck-dropdown-4 .fa-chevron-up:before {
     font-size: 1.8rem;
     color: #2b7239;
-    font-weight: 600
+    font-weight: 400
 }
 
 .bck-dropdown-4 .bck-dropdown-titulo {
@@ -2451,7 +2451,7 @@ td,th {
 .bck-dropdown-5 .bck-dropdown-titulo,.bck-dropdown-5 .fa-chevron-down:before,.bck-dropdown-5 .fa-chevron-up:before {
     font-size: 1.8rem;
     color: #000;
-    font-weight: 600
+    font-weight: 400
 }
 
 .bck-dropdown-5 .bck-dropdown-titulo {
