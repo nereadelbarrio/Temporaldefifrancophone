@@ -871,12 +871,17 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     font-size: 1.4rem
 }
 
-#actividad .content .cke_contents .bck-ol-7,#actividad .content .texto_curso .bck-ol-7,#actividad .content .workspace ul li .bck-ol-7 {
+#actividad .content .cke_contents .bck-ol-7,
+#actividad .content .texto_curso .bck-ol-7,
+#actividad .content .workspace ul li .bck-ol-7 {
     list-style-type: none;
     counter-reset: bck-li-counter
 }
 
-#actividad .content .cke_contents .bck-ol-7 li,#actividad .content .texto_curso .bck-ol-7 li,#actividad .content .workspace ul li .bck-ol74 li,#actividad .popover-content .bck-ol-7 li {
+#actividad .content .cke_contents .bck-ol-7 li,
+#actividad .content .texto_curso .bck-ol-7 li,
+#actividad .content .workspace ul li .bck-ol-7 li,
+#actividad .popover-content .bck-ol-7 li {
     counter-increment: bck-li-counter;
     padding-left: 0;
     z-index: 0;
@@ -888,7 +893,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     position: absolute;
     color: #000;
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 400;
     text-align: right;
     left: -20px;
     font-family: inherit;
@@ -929,7 +934,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
 
 #actividad .texto_curso li, 
 #actividad .workspace ul li li {
-font-weight: 600;
+font-weight: 400;
 }
 
 #actividad .workspace.matching .box ul li:before,#actividad .workspace.multiple-choice .js-item ul li:before,#actividad .workspace.ordenar .js-rank-item ul li:before,.cke_contents ul li:before,.classify-item ul li:before,.preview ul li:before,.texto_curso ul li:before,.workspace ul li ul li:before {
@@ -972,7 +977,7 @@ font-weight: 600;
     padding-left: 40px;
     position: relative;
     list-style: none;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 5px;
     font-family: Conv_Stag
 }
@@ -997,7 +1002,7 @@ font-weight: 600;
     padding-left: 40px;
     position: relative;
     list-style: none;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 5px;
     font-family: Conv_Stag
 }
@@ -1023,7 +1028,7 @@ font-weight: 600;
     padding-left: 40px;
     position: relative;
     list-style-type: none;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
     font-family: Conv_Stag
 }
@@ -1047,7 +1052,7 @@ font-weight: 600;
     position: relative;
     list-style-type: none;
     margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     font-family: Conv_Stag
 }
@@ -1074,7 +1079,7 @@ font-weight: 600;
     margin-bottom: 10px;
     color: #00489a;
     font-family: Conv_Stag-Sans;
-    font-weight: 600;
+    font-weight: 500;
     font-style: italic;
     margin-left: 50px;
     width: fit-content;
@@ -1103,7 +1108,7 @@ font-weight: 600;
 #actividad .content .cke_contents .bck-ul-6 li,#actividad .content .texto_curso .bck-ul-6 li,#actividad .content .workspace ul li .bck-ul-6 li,#actividad .popover-content .bck-ul-6 li {
     padding-left: 40px;
     position: relative;
-    font-weight: 600;
+    font-weight: 500;
     list-style: none;
     margin-bottom: 5px
 }
@@ -1129,7 +1134,7 @@ font-weight: 600;
     padding-left: 40px;
     position: relative;
     list-style: none;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 5px
 }
 
