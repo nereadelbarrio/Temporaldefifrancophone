@@ -306,7 +306,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 }
 
 #indice .unit-content .actividades .item .title {
-	font-weight: 600;
+	font-weight: 500;
 	color: #000;
 }
 
@@ -320,7 +320,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title,body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title {
     font-size: 14px;
-    font-weight: 600
+    font-weight: 400
 }
 
 #book-index #indice .unit-content a:active,#book-index #indice .unit-content a:focus,#book-index #indice .unit-content a:hover,#indice .actividades a:active,#indice .actividades a:focus,#indice .actividades a:hover,#indice .units ul li a:active,#indice .units ul li a:focus,#indice .units ul li a:hover {
@@ -738,7 +738,7 @@ body.is_app .Temporaldefifrancophone-navbar.ocultar {
     text-align: right;
     color: #2b7239;
     font-size: 2rem;
-    width: 31px;
+    width: 32px;
     margin-top: 0;
     left: -25px;
     top: 0
@@ -1514,7 +1514,7 @@ font-weight: 400;
     padding-top: 14px;
     color: #fff;
     font-size: 2rem;
-    font-weight: 600
+    font-weight: 500
 }
 
 .info-popover .popover-title:before,.popover-template .popover-title:before {
